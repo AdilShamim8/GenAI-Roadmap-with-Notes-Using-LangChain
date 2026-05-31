@@ -123,7 +123,7 @@ This repository provides a structured learning path for developers interested in
   - Attention Mechanisms
   - Transformers Architecture (The Foundation of Modern AI)
 
-### 2. 🤖 Generative AI Models (4-6 weeks)
+### 2. Generative AI Models (4-6 weeks)
 - **Transformer-Based Models**
   - GPT Family (GPT-5.4 Thinking/Pro, GPT-5.4 mini/nano, GPT-5.5 / GPT-5.5 Pro)
   - Claude Series (Sonnet 4.6, Opus 4.6, Opus 4.7, Mythos Preview [restricted, Project Glasswing])
