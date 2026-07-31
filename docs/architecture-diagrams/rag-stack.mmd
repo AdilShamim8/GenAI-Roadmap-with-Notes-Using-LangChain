@@ -1,0 +1,18 @@
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    subgraph Ingest
+        A[Source docs] --> B[Loader]
+        B --> C[Chunker]
+        C --> D[Embedder]
+        D --> E[(Vector DB)]
+    end
+    subgraph Query
+        F[User query] --> G[Embedder]
+        G --> H[Vector search]
+        I[(BM25 index)] --> H
+        H --> J[Re-ranker]
+        J --> K[Top-N chunks]
+        K --> L[LLM]
+        L --> M[Answer + citations]
+    end
+    E --> H

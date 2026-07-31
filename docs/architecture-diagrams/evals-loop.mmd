@@ -1,0 +1,12 @@
+%%{init: {'theme':'neutral'}}%%
+flowchart LR
+    Golden[Golden dataset] --> Runner
+    Code[Prompt + model] --> Runner
+    Runner --> Outputs
+    Outputs --> Judge[LLM-as-judge or rules]
+    Judge --> Metrics
+    Metrics --> Report[Eval report]
+    Report --> Decision{Pass?}
+    Decision -->|Yes| Ship
+    Decision -->|No| Iterate[Iterate on prompt]
+    Iterate --> Code

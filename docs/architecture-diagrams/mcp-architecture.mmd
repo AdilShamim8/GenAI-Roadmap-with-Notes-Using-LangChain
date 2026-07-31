@@ -1,0 +1,17 @@
+%%{init: {'theme':'neutral'}}%%
+flowchart TB
+    subgraph Client
+        LLM[LLM / Agent]
+        MCPClient[MCP client]
+        LLM <--> MCPClient
+    end
+    subgraph Server
+        MCPServer[MCP server]
+        Tool1[Tool: read_db]
+        Tool2[Tool: search_web]
+        Tool3[Resource: file]
+        MCPServer --> Tool1
+        MCPServer --> Tool2
+        MCPServer --> Tool3
+    end
+    MCPClient <-->|JSON-RPC over stdio or HTTP| MCPServer

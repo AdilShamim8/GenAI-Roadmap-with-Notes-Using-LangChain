@@ -1,0 +1,13 @@
+%%{init: {'theme':'neutral'}}%%
+flowchart TB
+    User[User input] --> Supervisor
+    Supervisor -->|Routed task| Planner
+    Planner -->|Subtasks| Worker1[Worker 1 - retrieval]
+    Planner -->|Subtasks| Worker2[Worker 2 - synthesis]
+    Planner -->|Subtasks| Worker3[Worker 3 - QA]
+    Worker1 --> Memory[(Shared memory)]
+    Worker2 --> Memory
+    Worker3 --> Memory
+    Memory --> Critic
+    Critic -->|Approve| Final
+    Critic -->|Revise| Planner
