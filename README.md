@@ -107,5 +107,4 @@ MIT — see [`LICENSE`](./LICENSE).
 - Every practitioner who has published a postmortem, evals harness, or agent architecture in public.
 
 ## Star history
-
 If this roadmap helps you, star it. Stars keep the project maintained.
