@@ -20,6 +20,7 @@
 
 - [Latent Space](https://www.latent.space/) — Weekly; practitioner interviews + news.
 - [The Batch (Andrew Ng)](https://www.deeplearning.ai/the-batch/) — Weekly summary.
+- [AI Weekly](https://aiweekly.co/) — Discover what AI experts are reading and sharing right now.
 - [Import AI (Jack Clark)](https://importai.substack.com/) — Weekly; policy-aware.
 - [Simon Willison's TIL](https://til.simonwillison.net/) — Daily-ish; practical.
 

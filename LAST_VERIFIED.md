@@ -70,6 +70,12 @@
 | Levels.fyi AI engineer compensation | https://www.levels.fyi/t/software-engineer/focus/ai-engineer | 2026-07-30 |
 | Builtin AI/ML job postings | https://builtin.com/jobs/ai-ml | 2026-07-30 |
 
+## Community resources
+
+| Claim | Source URL | Last verified |
+|-------|------------|---------------|
+| AI Weekly tracks what AI experts are reading and sharing | https://aiweekly.co/ | 2026-09-05 |
+
 ## Re-verification protocol
 
 1. Every month, a GitHub Action opens a "Re-verify claims" issue.
